@@ -1,6 +1,6 @@
 import { Types } from 'phaser';
-import { LoadingScene } from 'src/scenes/LoadingScene';
-import { MainScene } from 'src/scenes/MainScene';
+import { LoadingScene } from '../scenes/LoadingScene';
+import { MainScene } from '../scenes/MainScene';
 
 const gameConfig: Types.Core.GameConfig = {
 	title: 'Galaga',
