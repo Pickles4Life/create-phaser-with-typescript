@@ -16,7 +16,7 @@
 		"create-phaser-with-typescript": "./src/index.js"
 	},
 	"scripts": {
-		"prepublishOnly": " ../main-template",
+		"prepublishOnly": "cp -R ../main-template .",
 		"postpublish": "rm -rf main-template"
 	},
 	"dependencies": {
