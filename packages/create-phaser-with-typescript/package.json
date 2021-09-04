@@ -1,0 +1,27 @@
+{
+	"name": "create-phaser-with-typescript",
+	"description": "Set up a phaser project with typescript.",
+	"author": "Christian Kaminski",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Pickles4Life/create-phaser-with-typescript.git"
+	},
+	"version": "1.0.0",
+	"license": "MIT",
+	"files": [
+		"main-template",
+		"src/index.js"
+	],
+	"bin": {
+		"create-phaser-with-typescript": "./src/index.js"
+	},
+	"scripts": {
+		"prepublishOnly": " ../main-template",
+		"postpublish": "rm -rf main-template"
+	},
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"commander": "^8.1.0",
+		"fs-extra": "^10.0.0"
+	}
+}
